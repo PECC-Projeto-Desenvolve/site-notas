@@ -44,7 +44,7 @@ const Footer = () => {
 
   return (
     <AppBar position="fixed" color="light" className={classes.appBar} style={{ display: isVisible ? 'flex' : 'none' }}>
-      <Toolbar>
+      <Toolbar >
         <Typography variant="body2" color="inherit" className={classes.grow}>
           © {new Date().getFullYear()} Projeto Desenvolve
         </Typography>
