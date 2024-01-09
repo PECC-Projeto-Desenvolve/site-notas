@@ -205,7 +205,7 @@ function TabelaAlunos() {
         />
   
         {searchTerm && filteredAlunos.length > 0 && (
-          <TableContainer component={Paper} style={{ maxHeight: hasScrollbar ? 100 : 'auto', width: hasScrollbar ? 400 : 'auto' }}>
+          <TableContainer component={Paper} style={{ maxHeight: hasScrollbar ? 100 : 'auto', width: hasScrollbar ? 500 : 'auto' }}>
             <Table>
               <TableHead>
                 <TableRow>
